@@ -1,23 +1,18 @@
-Movie Theatre:
+Movie Theatre ERA Diagram Notes:
 
 
  
-
-
-
-
-
-
+Brainstorming:
 Concession----> Customer (many to one relationship:for every customer there are many concession, but for every concession there is one customer)
 
+Movie---->Ticket (one to many relationship: for every ticket there is one movie,but for every movie there are many tickets)
 
-Movie--->Ticket (one to many relationship: for every ticket there is one movie,but for every movie there is many tickets)
-
-Movie--->Ticket--> Customer (for one ticket there are one customer, but for one customer there are many tickets--many to one)
-
+Ticket----> Customer (for one ticket there is one customer, but for one customer there are many tickets--many to one)
 
 
-1. concession to customer: many to one relationship:for every customer there are many concession, but for every concession there is one customer) small theatre that only has once concession
+Below is how the ERA diagram was created:
+
+1. concession to customer: many to one relationship:for every customer there are many concession, but for every concession there is one customer); small theatre that only has once concession
 
 2. customer to ticket: for one ticket there is one customer, but for one customer there are many tickets--many to one)
 
